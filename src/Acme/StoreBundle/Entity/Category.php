@@ -7,7 +7,7 @@ use Doctrine\Common\Collections\ArrayCollection;
 /**
  * Acme\StoreBundle\Entity\Category
  *
- * @ORM\Table(name="Cagegory")
+ * @ORM\Table(name="Category")
  * @ORM\Entity
  */
 class Category

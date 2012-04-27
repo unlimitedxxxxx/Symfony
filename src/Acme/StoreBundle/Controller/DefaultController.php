@@ -44,7 +44,7 @@ class DefaultController extends Controller
       $category = $product->getCategory();
       
       $cate = $category->getName();
-      return new Response('Show-'.$cate);
+      return new Response('Show-'.$category->getId() . ':' . $cate);
       
    }
 
